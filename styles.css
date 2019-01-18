@@ -287,6 +287,12 @@ footer.second p {
         width: 100%;
     }
 
+    article img, aside img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
     .social i {
         font-size: 180%;
     }
