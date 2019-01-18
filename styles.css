@@ -111,3 +111,32 @@ nav ul li a:hover {
     max-width: 1100px;
     margin: 0 auto;
 }
+
+.one-fourth {
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+#js {
+    background-color: royalblue;
+}
+
+#php {
+    background-color: #003152;
+}
+
+#laravel {
+    background-color: #4c516d;
+}
+
+#vuejs {
+    background-color: #0f52ba;
+}
+
+.one-fourth i {
+    color: white;
+    font-size: 500%;
+    padding: 13% 0 4% 0;
+}
