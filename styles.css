@@ -12,6 +12,7 @@ body {
 }
 
 h2 {
+    color: #f5f5f5;
     font-size: 250%;
     font-weight: 700;
     text-align: center;
@@ -19,6 +20,7 @@ h2 {
 }
 
 h3 {
+    color: #f5f5f5;
     font-size: 175%;
     line-height: 155%;
     padding: 5% 0;
@@ -26,6 +28,7 @@ h3 {
 }
 
 p {
+    color: rgba(0, 0, 0, 0.6);
     font-size: 160%;
     line-height: 150%;
     padding: 3%;
@@ -123,11 +126,11 @@ nav ul li a:hover {
     background-color: royalblue;
 }
 
-#php {
+#php, #monolith {
     background-color: #003152;
 }
 
-#laravel {
+#laravel, #api {
     background-color: #4c516d;
 }
 
@@ -139,4 +142,89 @@ nav ul li a:hover {
     color: white;
     font-size: 500%;
     padding: 13% 0 4% 0;
+}
+
+.inner-wrapper, .inner-wrapper-2 {
+    float: left;
+    width: 100%;
+    background-color: #c3d7df;
+}
+
+article, aside {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+
+article {
+    float: left;
+}
+
+aside {
+    float: right;
+}
+
+.inner-wrapper aside, .inner-wrapper-2 article {
+    background-color: #a2b1c1;
+}
+
+.inner-wrapper-3, #spa, #thumbs {
+    background-color: royalblue;
+}
+
+.inner-wrapper-3 {
+    float: left;
+    width: 100%;
+}
+
+.one-third {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.one-third p, .fa-thumbs-up, .social i {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#thumbs {
+    padding: 0 0 1%;
+    clear: both;
+}
+
+/*-- Footer --*/
+footer {
+    background-color: #287092;
+    width: 100%;
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 450%;
+    margin: 1%;
+    padding: 4%;
+}
+
+.social i:hover {
+    color: #13d7df;
+}
+
+footer.second {
+    border-top: 2px solid #aadcd2;
+    background-color: #544b59;
+    max-height: 50px;
+    margin: 0;
+}
+
+footer.second p {
+    padding: 5px 0 9px 0;
+    text-align: center;
 }
