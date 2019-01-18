@@ -73,7 +73,7 @@ nav {
     display: none;
     width: 40px;
     height: 40px;
-    background: url("img/button-menu-icon.png") center;
+    background: url("img/button-menu-icon.png") center no-repeat;
 }
 
 a:hover#menu-icon {
@@ -227,4 +227,72 @@ footer.second {
 footer.second p {
     padding: 5px 0 9px 0;
     text-align: center;
+}
+
+/*-- Media Queries --*/
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 150%;
+    }
+
+    h3 {
+        font-size: 125%;
+    }
+
+    p {
+        font-size: 120%;
+    }
+
+    header {
+        position: absolute;
+    }
+
+    #logo {
+        margin: 15px 0 20px -1px;
+        background: url("img/favicon.png") no-repeat center;
+    }
+
+    #menu-icon {
+        display: inline-block;
+    }
+
+    nav ul, nav:active ul {
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        padding: 20px;
+        background: #287092;
+        right: 20px;
+        top: 60px;
+        border: 1px solid white;
+        border-radius: 20px 0 20px 2px;
+        width: 100%;
+    }
+
+    nav:hover ul {
+        display: block;
+    }
+
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .banner {
+        padding-top: 86px;
+    }
+
+    .one-fourth, article, aside, .one-third {
+        width: 100%;
+    }
+
+    .social i {
+        font-size: 180%;
+    }
+
+    .one-fourth i {
+        font-size: 350%;
+        padding: 4% 0 1% 0;
+    }
 }
